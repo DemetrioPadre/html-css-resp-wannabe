@@ -134,9 +134,9 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-    
+
     .lessons .col{
-        width: 100%;
+     width: 100%;
     }
     .steps .col{
     width: 100%;
@@ -144,18 +144,17 @@ img {
 
     .row{
         flex-direction: column;
-        justify-content: center;
+       width: 100%;
     }
 
-
-    .why-us .col{
-        width: 100%;
+    .why-us{
+        margin: 0;
         background-color:#222222 ;
        
     }
+       .steps.text-center{
+        margin-bottom: 0;
+       }
+        
+    }
 
-
-    
-
-
-}
